@@ -31,8 +31,8 @@ public class StepTracker {
        }
        System.out.println("Введите количество пройденных шагов.");
        int step = scanner.nextInt();
-       if(step<0){
-           System.out.println("Количество шагов не может быть отрицательным.");
+       if(step<1){
+           System.out.println("Количество шагов должно быть положительным.");
            return;
        }
 
